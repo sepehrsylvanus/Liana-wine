@@ -1,0 +1,23 @@
+.aboutContainer{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    text-align: center;
+}
+.aboutContainer p{
+    font-weight: bold;
+}
+
+@media screen and (min-width:375px) {
+  .aboutContainer p{
+    font-size: 2rem;
+  }  
+}
+@media screen and (min-width:1024px) {
+    .aboutContainer p{
+      font-size: 4rem;
+    }  
+  }

@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Sevillana&display=swap");
+.allPages {
+  border: 1em solid;
+  background: #d9d9d9;
+  height: 100vh;
+
+  border-image: url(./stats/borderImg.jpg) 10;
+}
